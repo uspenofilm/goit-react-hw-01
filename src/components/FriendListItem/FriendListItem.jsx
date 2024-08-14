@@ -1,9 +1,13 @@
+import css from "./FriendListItem.module.css";
+
 export default function FriendListItem({ avatar, name, isOnline }) {
   return (
-    <div>
+    <div className={css.friendCard}>
       <img src={avatar} alt="Avatar" width="48" />
-      <p>{name}</p>
-      <p>{isOnline ? "Online" : "Offline"}</p>
+      <p className={css.friendName}>{name}</p>
+      <p className={isOnline ? css.friendOnline : css.friendOffline}>
+        {isOnline ? "Online" : "Offline"}
+      </p>
     </div>
   );
 }

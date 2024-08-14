@@ -1,14 +1,14 @@
 .profileContainer {
-  max-width: 400px;
-  max-height: 500px;
+  max-width: 500px;
+  max-height: 600px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding-top: 12px;
   border: 2px solid black;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .profileImgText {
@@ -17,9 +17,8 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  padding-top: 12px;
   gap: 12px;
-  padding-left: 12px;
-  padding-right: 12px;
 }
 
 .profileImg {
@@ -62,7 +61,7 @@
   align-items: center;
   gap: 8px;
   border-left: 2px solid darkgrey;
-  padding: 18px;
+  padding: 20px 36px;
   font-family: Arial, sans-serif;
   font-size: 18px;
   line-height: normal;

@@ -1,4 +1,4 @@
-import css from "../Profile/Profile.module.css";
+import css from "./Profile.module.css";
 
 export default function Profile({ name, tag, location, image, stats }) {
   return (

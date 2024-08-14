@@ -1,0 +1,36 @@
+.friendCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.friendName {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 500;
+  color: black;
+  margin-top: 16px;
+}
+
+.friendOnline {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 400;
+  color: green;
+  margin-top: 8px;
+}
+
+.friendOffline {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 400;
+  color: red;
+  margin-top: 8px;
+}
